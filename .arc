@@ -1,5 +1,5 @@
 @app
-node-vue
+light-b2c
 
 @static
 folder dist
@@ -7,3 +7,9 @@ folder dist
 @http
 get /
 get /api
+
+@tables
+data
+  scopeID *String
+  dataID **String
+  ttl TTL
